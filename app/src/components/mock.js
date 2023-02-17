@@ -22,7 +22,7 @@ export function newBooking() {
       title: 'Boardroom'
     },
     fromTime: now,
-    toTime: now
+    toTime: end
   };
 }
 
