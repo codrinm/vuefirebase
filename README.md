@@ -6,7 +6,7 @@ This assessment provides a sample project that allows basic management of bookin
 
 Outside of the technical requirements listed, we place no limits on how you want to deliver this solution. One of the things we are hoping to extract from your evaluation is an idea of what a good solution looks like to you. As this is a lead role, attention to detail is expected, but we aren't going to penalise the odd spelling mistake or duplicated code. These things happen.
 
-When solving the below tasks try to break your work down into small changes and commit these into Git independently. The Git history really helps us to understand how you approach problem solving. Don't worry if you commit something you wish you hadn't, people change their minds or find better ways to do things all the time, this is part of our work and we like to see how you deal with this too.
+When solving the below tasks try to break your work down into small changes and commit these into Git independently. The Git history really helps us to understand how you approach problem solving. Don't worry if you commit something you wish you hadn't, people change their minds or find better ways to do things all the time, this is part of our work and we like to see how you deal with this too. For larger goals, use commit messages or some other documentation to detail how the goal has been divided into tasks.
 
 ## Setup and submission
 
@@ -29,22 +29,20 @@ These parts have been defined to look similar to some [Firebase](https://firebas
 
 ## Goals
 
-For larger goals, use commit messages or some other documentation to detail how the goal has been divided into tasks.
+Please complete these goals in the order you would prioritise them.
 
 ### Getting Started
 
 To run the system, run the `server` script in the root, and `dev` script in the app.
 
-### Goal 1: Fix an app bug
-
-There is a bug in the app: when a new booking is received from the back-end, it does not show in the bookings table. Task 1 is to fix this issue. To simulate this, once the app is loaded and showing the initial bookings press the "+" to add a dummy booking. You will see in the server and app console logs that a new booking is created.
-
-### Goal 2: Rooms Information
-
-Currently, there is no way to see a list of rooms on the app, it is decided this would be useful. Fetch all rooms from the server (the `rooms` collection includes a few rooms on start-up), and display them on the app. Also, it is decided more metadata about a room would be useful, so add in a `capacity` field which indications how many people can comfortably use a room. It should be possible to edit a rooms name and capacity from the app.
-
-### Goal 3: Auto-Room Creation
+### Goal: Auto-Room Creation
 
 If a booking is created that references a room not in the store, that room should be added to the store. Using `functions`, implement this feature.
 
+### Goal: Fix an app bug
 
+There is a bug in the app: when a new booking is received from the back-end, it does not show in the bookings table. Task 1 is to fix this issue. To simulate this, once the app is loaded and showing the initial bookings press the "+" to add a dummy booking. You will see in the server and app console logs that a new booking is created.
+
+### Goal: Rooms Information
+
+Currently, there is no way to see a list of rooms on the app, it is decided this would be useful. Fetch all rooms from the server (the `rooms` collection includes a few rooms on start-up), and display them on the app. Also, it is decided more metadata about a room would be useful, so add in a `capacity` field which indications how many people can comfortably use a room. It should be possible to edit a rooms name and capacity from the app.
