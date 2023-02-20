@@ -2,7 +2,7 @@
 
 This assessment helps Vanti to hire people suited for the role of **Lead Developer**. As part of this role you will be developing user interfaces using Vue.js, and back-end functionality using cloud technologies. A polished and responsive user experience is key, coupled with maintainable and battle-tested code.
 
-This assessment provides a sample application that presents booking information. This is typical of the type of feature we work with daily here at Vanti. Working through this assessment you will add new features to the application to improve the utility and user experience.
+This assessment provides a sample project that allows basic management of booking information. This is typical of the type of system we work with daily here at Vanti. Working through this assessment you will add new features to the application to improve the utility and user experience, as well as fix bugs to ensure everything works as intended.
 
 Outside of the technical requirements listed, we place no limits on how you want to deliver this solution. One of the things we are hoping to extract from your evaluation is an idea of what a good solution looks like to you. As this is a lead role, attention to detail is expected, but we aren't going to penalise the odd spelling mistake or duplicated code. These things happen.
 
