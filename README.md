@@ -29,20 +29,14 @@ These parts have been defined to look similar to some [Firebase](https://firebas
 
 ## Goals
 
-Please complete these goals in the order you would prioritise them.
+The client has given some feedback and comments having used the system, some messages from them are below. Use these to create some goals/tasks for improving the system. You should aim for two or three distinct tasks.
+
+> When I press "+" to create a new booking, it does not show up in the table. I've noticed that when I load the app again it does show up though.
+
+> Each time I want to make a change to a room, I have to ask to have the system updated. I would like a way to see the rooms we have, and also what capacity they have. It would be great if we could make changes to this ourselves.
+
+A fellow developer has suggested a back-end feature, "auto-room creation". If a booking is created that references a room not in the store, that room should be added to the store. Using `functions`, implement this feature.
 
 ### Getting Started
 
 To run the system, run the `server` script in the root, and `dev` script in the app.
-
-### Goal: Auto-Room Creation
-
-If a booking is created that references a room not in the store, that room should be added to the store. Using `functions`, implement this feature.
-
-### Goal: Fix an app bug
-
-There is a bug in the app: when a new booking is received from the back-end, it does not show in the bookings table. Task 1 is to fix this issue. To simulate this, once the app is loaded and showing the initial bookings press the "+" to add a dummy booking. You will see in the server and app console logs that a new booking is created.
-
-### Goal: Rooms Information
-
-Currently, there is no way to see a list of rooms on the app, it is decided this would be useful. Fetch all rooms from the server (the `rooms` collection includes a few rooms on start-up), and display them on the app. Also, it is decided more metadata about a room would be useful, so add in a `capacity` field which indications how many people can comfortably use a room. It should be possible to edit a rooms name and capacity from the app.
