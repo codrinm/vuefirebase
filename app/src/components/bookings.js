@@ -26,6 +26,16 @@ export function newBooking() {
   };
 }
 
+/**
+ * @param {Booking} b
+ * @return {boolean}
+ */
+export function isValidBooking(b) {
+  return b.title && b.title !== '' &&
+      b.room && b.room.ref.path && b.room.title &&
+      b.fromTime && b.toTime && b.fromTime < b.toTime;
+}
+
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
