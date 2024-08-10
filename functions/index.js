@@ -10,6 +10,8 @@ const example = (change, store) => {
       ...change.document,
       lastWrittenTime: new Date()
     });
+    console.log(`[example] auto create room if it doesn't exist: ${change.document.room.ref.path}, title: '${change.document.room.title}'`);
+    store.autoRoomCreate(change.document);
   }
 };
 

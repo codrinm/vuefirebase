@@ -86,6 +86,15 @@ class Store {
       document: data
     });
   }
+
+  /**
+   * @param {Document} data
+   */
+  autoRoomCreate(data) {
+    if (this._data[data.room.ref.path] === undefined) {
+      this._data[data.room.ref.path] = { title: data.room.title };
+    }
+  }
 }
 
 module.exports = {
