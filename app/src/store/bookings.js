@@ -8,6 +8,7 @@ export default {
   mutations: {
     setBooking(state, {ref, doc}) {
       state.bookings[ref] = doc;
+      state.bookings = { ...state.bookings };
     },
     setBookings(state, docs) {
       const bookings = {};
